@@ -52,7 +52,7 @@
       <br>
       {* First tag [1][/1] is for a HTML tag. *}
       {l
-        s='Email: %email%'
+        s='Email: <a href="mailto:%email%">[1]%email%[/1]</a>'
         sprintf=[
           '%email%' => $contact_infos.email
         ]
